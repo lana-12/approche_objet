@@ -2,6 +2,8 @@ package fr.declaration.variable;
 
 public class DeclarationApp {
 
+    public static char escape = '\'';
+
     public static void main(String[] args) {
 
         // Type Byte
