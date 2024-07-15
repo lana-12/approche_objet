@@ -1,4 +1,4 @@
-package fr.entities;
+package fr.entities2;
 
 public class AdressPostal {
 
@@ -47,6 +47,14 @@ public class AdressPostal {
     public void setCity(String city) {
         this.city = city;
     }
-
+    @Override
+    public String toString() {
+        return "AdressPostal{" +
+                "numero=" + numero +
+                ", libelle='" + libelle + '\'' +
+                ", zipCode='" + zipCode + '\'' +
+                ", city='" + city + '\'' +
+                '}';
+    }
 
 }
