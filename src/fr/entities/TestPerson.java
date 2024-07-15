@@ -12,7 +12,6 @@ public class TestPerson {
         AdressPostal adr2 = new AdressPostal(6, "rue de la tartus", "34131", "Candillargues");
         Person pers1 = new Person("Giac", "Vivi", adr1);
 
-
         Person pers2 = new Person("Giaco", "Lana", adr2);
         adr2.setCity("Mauguio");
 
