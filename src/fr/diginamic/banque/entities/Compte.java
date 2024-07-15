@@ -16,11 +16,18 @@ public class Compte {
     }
 
 
+
     public double getSolde() {
         return solde;
     }
 
     public void setSolde(double solde) {
         this.solde = solde;
+    }
+
+
+    @Override
+    public String toString() {
+        return "Votre numéro de Compte est " + numeroCompte + "votre solde est de " + solde + " €";
     }
 }
