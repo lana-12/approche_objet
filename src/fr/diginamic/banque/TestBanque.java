@@ -20,8 +20,6 @@ public class TestBanque {
         System.out.println(perso1.getSolde());
         System.out.println(perso2.getSolde());
 
-
-
         List<Compte> comptes = new ArrayList<>();
         comptes.add(perso1);
         comptes.add(perso2);
