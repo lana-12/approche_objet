@@ -26,6 +26,8 @@ public class TestOperation {
             System.out.println("Date: " + operation.getMontant());
             System.out.println("Date: " + operation.getType());
 
+
+            // A refaire avec egualsto
             if (operation instanceof Credit){
                 montantTotal += operation.getMontant();
             } else if (operation instanceof Debit){
