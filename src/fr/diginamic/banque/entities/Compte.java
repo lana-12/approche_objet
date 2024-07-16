@@ -15,6 +15,10 @@ public class Compte {
         return numeroCompte;
     }
 
+    void setNumeroCompte(int numeroCompte) {
+        this.numeroCompte = numeroCompte;
+    }
+
 
 
     public double getSolde() {
