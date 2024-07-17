@@ -1,6 +1,10 @@
 package fr.diginamic.equals;
 
+import fr.tri.VilleComparableName;
+import fr.tri.VilleComparableNbrHabitant;
+
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 
 public class TestVille {
@@ -26,6 +30,12 @@ public class TestVille {
         villes.add(city6);
         villes.add(city7);
         villes.add(city8);
+
+        Collections.sort(villes, new VilleComparableNbrHabitant());
+        System.out.println("Tri par nbr habiants " + villes);
+
+        Collections.sort(villes, new VilleComparableName());
+        System.out.println("Tri par Name " + villes);
 
         System.out.println("Début du programme " + villes.size());
 

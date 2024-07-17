@@ -1,6 +1,5 @@
 package fr.diginamic.equals;
 
-import java.util.Objects;
 
 public class Ville {
 
@@ -11,6 +10,8 @@ public class Ville {
         this.name = name;
         this.nbrHabitant = nbrHabitant;
     }
+
+
 
     @Override
     public boolean equals(Object object) {
