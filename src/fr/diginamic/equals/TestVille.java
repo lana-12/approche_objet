@@ -1,5 +1,6 @@
 package fr.diginamic.equals;
 
+import fr.diginamic.testenumeration.Continent;
 import fr.tri.VilleComparableName;
 import fr.tri.VilleComparableNbrHabitant;
 
@@ -11,14 +12,14 @@ public class TestVille {
 
     public static void main(String[] args) {
 
-        Ville city1 = new Ville("Nice", 343000);
-        Ville city2 = new Ville("Carcassonne", 47800);
-        Ville city3 = new Ville("Narbonne", 53400);
-        Ville city4 = new Ville("Lyon", 484000);
-        Ville city5 = new Ville("Foix", 9700);
-        Ville city6 = new Ville("Pau", 77200);
-        Ville city7 = new Ville("Marseille", 850700);
-        Ville city8 = new Ville("Tarbes", 40600);
+        Ville city1 = new Ville("Nice", 343000, Continent.EUROPE);
+        Ville city2 = new Ville("Carcassonne", 47800, Continent.EUROPE);
+        Ville city3 = new Ville("Narbonne", 53400, Continent.EUROPE);
+        Ville city4 = new Ville("Lyon", 484000, Continent.EUROPE);
+        Ville city5 = new Ville("Foix", 9700, Continent.EUROPE);
+        Ville city6 = new Ville("Pau", 77200, Continent.EUROPE);
+        Ville city7 = new Ville("Marseille", 850700,Continent.EUROPE);
+        Ville city8 = new Ville("Tarbes", 40600, Continent.EUROPE);
 
 
         ArrayList<Ville> villes = new ArrayList<>();

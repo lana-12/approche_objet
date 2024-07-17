@@ -1,14 +1,18 @@
 package fr.diginamic.equals;
 
 
+import fr.diginamic.testenumeration.Continent;
+
 public class Ville {
 
     private String name;
     private double nbrHabitant;
+    private Continent continent;
 
-    public Ville(String name, double nbrHabitant) {
+    public Ville(String name, double nbrHabitant, Continent continent) {
         this.name = name;
         this.nbrHabitant = nbrHabitant;
+        this.continent = continent;
     }
 
 
@@ -33,6 +37,7 @@ public class Ville {
         return "Ville{" +
                 "name='" + name + '\'' +
                 ", nbrHabitant=" + nbrHabitant +
+                ", continent=" + continent +
                 '}';
     }
 
@@ -52,5 +57,11 @@ public class Ville {
         this.nbrHabitant = nbrHabitant;
     }
 
+    public Continent getContinent() {
+        return continent;
+    }
 
+    public void setContinent(Continent continent) {
+        this.continent = continent;
+    }
 }
